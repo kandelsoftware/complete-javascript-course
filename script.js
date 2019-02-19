@@ -59,8 +59,7 @@ console.log(typeof johnOlder);
 console.log(typeof ageJohn);
 console.log(typeof "hello");
 var x;
-console.log(typeof x);
-*/
+
 
 //Operators precedence
 
@@ -73,8 +72,20 @@ var fullAge = 18;
 var isFullAge = now - yearJohn >= fullAge;
 console.log(isFullAge);
 
+//Grouping
 var ageJohn = now - yearJohn;
 var ageMark = 35;
 var average = (ageJohn + ageMark) / 2;
 console.log(average);
 
+//Multiple assigments
+var x, y;
+x = y = (3 + 5) * 4 - 6;
+console.log(x, y);
+//more operators
+x *= 2;
+x++;
+console.log(x);
+
+console.log(typeof x);
+*/
