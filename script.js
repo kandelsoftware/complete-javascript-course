@@ -88,4 +88,61 @@ x++;
 console.log(x);
 
 console.log(typeof x);
+
+
+//coding challanges -1
+
+var markmass = 38;
+var heightMark = 1.69;
+var massjohn = 92;
+var heightJohn = 1.95;
+var markBmi = 38 / (heightMark * heightMark);
+var johnBmi = 18 / (heightJohn * heightJohn);
+console.log(markBmi, johnBmi);
+var isHigher = markBmi > johnBmi;
+console.log("Is Mark's Bmi higher than john ?" + isHigher);
+
+
+var firstName = 'John';
+var civilStatus = 'single';
+if (civilStatus === 'married') {
+    console.log(firstName + " is marriage");
+} else {
+    console.log(firstName + 'will hopefully marry soon')
+}
+
+
+var isMarried = true
+if (isMarried) {
+    console.log(firstName + " is marriage");
+} else {
+    console.log(firstName + 'will hopefully marry soon')
+}
+
+
+
+var markmass = 38;
+var heightMark = 1.69;
+var massjohn = 92;
+var heightJohn = 1.95;
+var markBmi = 38 / (heightMark * heightMark);
+var johnBmi = 18 / (heightJohn * heightJohn);
+if (markBmi > johnBmi) {
+    console.log(" Mark's Bmi higher than john ");
+} else {
+    console.log(" John's Bmi higher than john")
+}
 */
+
+var firstName = 'John';
+var age = 29;
+
+if (age < 13) {
+    console.log(firstName + "is a Boy")
+} else if (age > 13 && age <= 20) {
+    console.log(firstName + "is a  Young Man")
+} else if (age >= 20 && age < 30) {
+    console.log(firstName + " is a Young man")
+} else {
+    console.log(firstName + " is a Man");
+}
